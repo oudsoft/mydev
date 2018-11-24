@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1"/>
+	<link rel="shortcut icon" type="image/x-icon" href="https://myhotel-4746f.firebaseapp.com/resources/imgs/ico/thunderOS.ico">
+	<script src="https://myhotel-4746f.firebaseapp.com/resources/js/jquery-ui-1.12.1.custom/external/jquery/jquery.js" type="text/javascript"></script>
+	<script src="https://myhotel-4746f.firebaseapp.com/resources/js/jquery-ui-1.12.1.custom/jquery-ui.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="https://myhotel-4746f.firebaseapp.com/resources/js/jquery-ui-1.12.1.custom/jquery-ui.css"/>     
+	<script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<title>บริการทำบิล</title>
+	<style>
+	#outputForm {
+        font-family: THSarabunNew;
+		src: url('https://myhotel-4746f.firebaseapp.com/resources/fonts/THSarabunNew.ttf');  
+		position: relative;
+		width: 100%
+		float: left;
+		border: #cc33cc 5px solid;
+		border-radius:5px;
+		box-shadow:0 0 3px #999;
+		margin: 5px;
+		padding: 5px;
+		color: blue;
+		text-align: center;
+		/*display: none;*/
+	}
+	</style>
+  </head>
+  <body>
+		<div id="outputForm">&nbsp;</div>
+		<div id="inputForm">
+			<input type="text" id="accountNo" size="40" value="140000835077746"/>
+			<input type="text" id="accountName" size="40"value="นายประเสริฐ สุดชดา"/>
+			<input type="text" id="totalCharge" size="10" value="941.23"/>
+			<input type="button" value=" สร้างคิวร์-อาร์โค้ดให้หน่อย " onclick="createQRCodeForMe()"/>
+		</div>
+		<input type="button" value=" ล้างข้อมูล " onclick="clearForm()"/>
+  </body>
+</html>
+
+<script>
+	//$.get("http://202.28.68.6/shop/api?id=11",  {
+		/*
+	$.get("http://202.28.68.6/qrimage",  {
+		accountNo: "140000835077746",
+		accountName: "นายประเสริฐ สุดชดา",
+		totalCharge: "571.45"}, 
+		function(data) {	
+		console.log(data);
+		var img = "<image src='" + data + "'/>";
+		$("#output").html(img);
+	});
+*/
+	function createQRCodeForMe(){
+		$.post("http://202.28.68.6/qrimage",  {
+			accountNo: $("#accountNo").val(),
+			accountName: $("#accountName").val(),
+			totalCharge: $("#totalCharge").val()}, 
+			function(data) {	
+			console.log(data);
+			var img = "<image src='" + data + "'/>";
+			$("#outputForm").css("display","block");
+			$("#outputForm").html(img);
+			$("#inputForm").css("display","none");
+		});
+	}
+
+	function clearForm() {
+		$("#outputForm").css("display","none");
+		$("#inputForm").css("display","block");
+		$("#accountNo").val("");
+		$("#accountName").val("");
+		$("#totalCharge").val("");
+	}
+
+	$("#outputForm").css("display","none");
+	$("#inputForm").css("display","block");
+</script>

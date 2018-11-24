@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "myhotel-4746f",
+  "private_key_id": "17ee25cddbd763766a78149b36a278f77ebdfada",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCxGhGyqdG3E8O7\n22SE+ZIIPmCgu7IrYGu7P0z6HZRzMCFk6BvqeX3t0eet2uGK220XUr+N5/7in1YK\nAnt2VuU0grm2OlBCl98DWC0yzRwFpDyeAeeGN6G1WF5d+/umiMVFxUvuzd1w7Ixd\ngexPWyXbX9YbYDz81aLzUhXB+HOxwSPQ20HWIL29aOlDZ8MIi0Z1iKEFiTWt1X2X\nGXiCq/b5B9qcJpVMy1ocDBpaqktL6lCqSeInFDQhRaYceGV0u8WKSr/SYd9qJq2D\nM4q5cCbgt/qkTdpMSH8pDEXYhm+vVh0/RjEmXI4bXbCIB/2YvlJbLLnL5sXHcklw\nuB2M0FHTAgMBAAECggEAIelQ/DoCOyEguKbw33l+We+/xudJ3X5wAoHDdp0VYN0V\nd+Ht/n7W+yPXTfX8e/86K14f6cdDihdifTYud+F5sA1cDCWsWqQEAvruZKzbscTa\nCpNoxs1+PGA4aZyneiL0S0DVIlvvDAFvezQ2kJdub0wxjjpmUy+BLUBJhEPTu3Ri\nk0YSGqPmQSb4hu0NkW9/ztXHzJZB4ACJU1drcJZDTNUvYQ7O3ZbJWMIqLkRUCM+Y\nt7RKOkIB4ryFRSqMgL1+VDl2bnSMJkSpjGERT61KGbKabZdIQksIuSQKRGehHSpv\nX/zk9fbjo8U6cNr740iu0O+gSRfCx7Yr0VFtadSzSQKBgQD6BkokeMoWS8XHFUp9\nINJER+bYyr19BqFTwBAsd2ArgdVkPjRNoro6Jnst7m0XKJlbvf9ttKRwYNeiH17f\npmFoA05V0odhtrZUFTd80WXGTdICp3QAK441DsWkRVNT2b4YAEU/vvdp6YImwnWD\nXz12TQyLtUPH4jSRWeHrJ7WefwKBgQC1VZ7lvVdJ42dTwRrqv3OffxkB5J/5ZcXA\ndLaexCBdjFzJweHhP4EU3vPS+aRHZIrsPzJIP9b3KjyGZF5MRacG+cf+NRPdLUWN\nxnek3zHv/H6zgDZzbB7HmZ4jk0iJ4FVc0JfdDCtQvCbusGNmP13uxRBtO3UyQLIH\nfx3eHfzKrQKBgQCU1sWwbI+xMi5s04nib3V83GjaSeb/1MCZQM7gCbigbcwAvt8Y\nEHVYRKwzraoXjT2uVa8HOfBiTeRQSOiLr1pxNvadNJUPYFuuNmsvzOAPayhIGDOA\nHm2rvD2ACx0N36PAWfjfd+mFjVLDjCO0ry/BiyCa0q+lAE5W8PECskL2NQKBgA+H\nIXAy4oKlQnfdlVx8wH3r+Ew9M6W7nU95rxmxWcQo/NkaDSmosnkDDoYGcpbaeTr5\nvmiJbvMDXuNzPM/zNvZV9VZDXUwXUFlvoVcw9anDSWY9mGwR2iDlerE5L4D/ANBN\n3HNFU4A6XGscF6btzjFgFqQD72k6OQSDUh9vGfKRAoGBAKmNR29lbHeG64r4vim1\nK5nEzz8H+5NitabLtJKAV9R1qw3qpkkg/SgegiJ2OZ2PY8eoBZYZ9mG86ngv+nQv\ntXdbu6nB00HaafKodMkNrIO93Y+3iY0Oz6lNxJtNy+PjM5nBaeTEznEfHkHtZp7m\nfwWtahxioT9r0FWJFVgAOKBu\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-mlnwsu@myhotel-4746f.iam.gserviceaccount.com",
+  "client_id": "102766832016866027419",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-mlnwsu%40myhotel-4746f.iam.gserviceaccount.com"
+}
